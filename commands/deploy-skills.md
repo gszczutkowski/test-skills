@@ -1,7 +1,7 @@
 ---
 name: deploy-skills
 description: Deploy or undeploy all local project artifacts (skills, commands, agents, hooks) to global ~/.claude/ via copy. SNAPSHOT versions are blocked from deployment.
-version: 1.0.0
+version: 1.1.0
 user_invocable: true
 ---
 
@@ -37,6 +37,7 @@ Run the deploy script:
 ```
 
 The script will:
+
 1. Copy all stable (non-SNAPSHOT) artifacts to `~/.claude/`
 2. Block any SNAPSHOT versions with a warning
 3. Print a summary of deployed vs blocked artifacts
@@ -69,7 +70,8 @@ Clean Summary:
     REMOVED:     ~/.claude/skills/extract-page-components/
 
   agents/
-    (no artifacts found)
+    REMOVED:     ~/.claude/agents/create-business-docs/
+    REMOVED:     ~/.claude/agents/extract-page-components/
 
   hooks/
     (no artifacts found)
