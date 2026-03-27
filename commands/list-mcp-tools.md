@@ -1,7 +1,7 @@
 ---
 name: list-mcp-tools
 description: List all available tools with their descriptions for a given MCP server or the default toolset.
-version: 1.0.0
+version: 1.0.1
 ---
 
 List all available tools with their descriptions for a given MCP server or the default toolset.
