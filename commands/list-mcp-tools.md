@@ -34,7 +34,6 @@ List the following built-in tools with a one-line description for each, formatte
    - For example, if the argument is `playwright`, search for `+mcp__playwright`.
    - If the argument is `playwright-test`, search for `+mcp__playwright_test`.
 2. Present the results as a markdown table with columns: **Tool** (short name without the `mcp__<server>__` prefix), **Full Name** (the complete tool name needed to call it), and **Description** (from the tool schema).
-3. If no tools are found, tell the user that no MCP server with that name was found among the available deferred tools.
 
 ### If `$ARGUMENTS` is empty or missing
 
